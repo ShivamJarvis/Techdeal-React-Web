@@ -1,0 +1,37 @@
+.hero-section {
+  background: linear-gradient(#373b4483, #4286f49c),
+    url("./../images/back1.jpg");
+  height: 70vh;
+  padding: 10rem 0;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: bolder !important;
+}
+#typed {
+  z-index: 8;
+  font-size: 2.4rem;
+}
+.typed-cursor{
+    font-size: 2.4rem;
+    font-weight: 300!important;
+}
+.my-btn {
+  border-radius: 0px !important;
+  border: 2px solid white !important;
+  padding: 0.9rem 2.25rem !important;
+  font-family: "Poppins", sans-serif !important;
+  background-color: transparent !important;
+  font-weight: 800;
+  transition: all 0.6s ease;
+}
+
+.my-btn:hover {
+  border: 2px solid white !important;
+  background-color: rgb(3, 50, 94) !important;
+  font-weight: 500;
+}
+
+.do-shop,.deal-text{
+  color: white!important;
+}

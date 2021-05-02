@@ -1,0 +1,27 @@
+.login-text {
+  margin-left: 9rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  color: #006eff;
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+}
+.recaptcha-place {
+  margin-left: 8.6rem;
+  margin-top: 2rem;
+}
+.login-btn {
+  padding: 1rem 0!important;
+  font-size: 1.15rem!important;
+  font-family: "Poppins",sans-serif!important;
+  background-color: #006eff!important;
+}
+
+.login-extra-links{
+    text-decoration: underline!important;
+    color: #006eff!important;
+    font-family: "Poppins",sans-serif!important;
+    font-weight: 500;
+    font-size: 1.10rem;
+   
+}

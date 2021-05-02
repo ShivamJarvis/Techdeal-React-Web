@@ -1,0 +1,47 @@
+.most-pop-heading {
+  font-family: "Poppins", sans-serif !important;
+  color: rgb(0, 1, 66) !important;
+}
+
+.our-partners__conatiner {
+  margin-bottom: 4rem;
+}
+
+.our-partners {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.we-have-section {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 73, 84, 1) 0%,
+    rgba(0, 111, 173, 1) 51%,
+    rgba(5, 23, 32, 1) 100%
+  );
+  padding: 3rem 0;
+  margin: 5rem 0;
+}
+.we-have-section span {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.we-have-section h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+.we-have-icon{
+    font-size: 4rem!important;
+  margin-top: 3rem!important;
+  margin-bottom: 2rem!important;
+  color: rgb(255, 255, 255)!important;
+}
+.our-customer-heading{
+    margin-bottom: 2rem;
+}
+.our-customer-container{
+    margin: 3rem 0;
+}

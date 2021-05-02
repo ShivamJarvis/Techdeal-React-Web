@@ -1,0 +1,45 @@
+
+.navbar {
+  padding: 1rem 0 !important;
+  z-index: 100 !important;
+  position: static !important;
+  top: 0 !important;
+}
+
+.nav-logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 1.7rem !important;
+}
+.nav-logo__sub {
+  color: rgb(3, 50, 94);
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin: 0 0.95rem;
+  transition: all 0.1s ease;
+}
+
+.nav-active {
+  border-bottom: 2px solid rgb(3, 50, 94);
+  color: black;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid rgb(3, 50, 94) !important;
+}
+
+.dropdown-item {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400!important;
+  padding: 0.25rem 2rem!important;
+  color: black!important;
+}
+.nav_icons{
+    color: rgb(0, 95, 139)!important;
+    margin-right: 1rem;
+    width: 16px!important;
+    height: 16px!important;
+}
