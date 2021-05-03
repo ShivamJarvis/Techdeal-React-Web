@@ -1,6 +1,6 @@
 .product-img-thumbnail {
-    width: 400px!important;
-  padding: 2rem 5rem !important;
+    width: 100%!important;
+  padding: 2rem !important;
 }
 .product-card-title {
   font-family: "Poppins", sans-serif;
@@ -36,4 +36,10 @@
 .product-card:hover {
   transform: scale(1.02);
   z-index: 23 !important;
+}
+.more-detail__hover{
+  color: rgb(1, 51, 92) !important;
+}
+.more-detail__hover:hover{
+  color: rgb(255, 255, 255) !important;
 }

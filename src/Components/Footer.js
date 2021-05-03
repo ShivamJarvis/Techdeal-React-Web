@@ -11,13 +11,7 @@ function Footer() {
           <div className="col-sm-12 col-md-6 col-lg-6">
             <h6>About</h6>
             <p className="text-justify">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
-              explicabo pariatur veritatis at unde illum, odio itaque iste
-              delectus inventore vero, nulla dolor quasi voluptate alias.
-              Nesciunt blanditiis tempora distinctio labore enim nam repudiandae
-              deleniti voluptatum, quis quia consequatur similique vitae quas
-              amet reprehenderit sapiente quaerat. Unde aspernatur facilis
-              asperiores?
+              This is an ecommerce website whichy deals in all kinds of electronic and computer based tech gadgets and tools at best price. Here you find all kinds of tech products cheaper than market price.
             </p>
           </div>
 
@@ -25,13 +19,13 @@ function Footer() {
             <h6>Useful Links</h6>
             <ul className="footer-links">
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" className='footer-links'>Home</Link>
               </li>
               <li>
-              <Link to="/shop">Shop</Link>
+              <Link to="/shop" className='footer-links'>Shop</Link>
               </li>
               <li>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact" className='footer-links'>Contact Us</Link>
               </li>
             </ul>
           </div>
@@ -43,19 +37,19 @@ function Footer() {
           <div className="col-md-8 col-sm-6 col-xs-12">
             <p className="copyright-text">
               Copyright &copy; 2021 All Rights Reserved by
-              <Link to="/">TechDeal</Link>.
+              <Link to="/" className="footer-links"> TechDeal</Link>.
             </p>
           </div>
 
           <div className="col-md-4 col-sm-6 col-xs-12">
             <ul className="social-icons">
               <li>
-                <a className="facebook" href="https://www.facebook.com">
+                <a className="facebook footer-links" href="https://www.facebook.com">
                   <FacebookIcon />
                 </a>
               </li>
               <li>
-                <a className="twitter" href="https://www.twitter.com">
+                <a className="twitter footer-links" href="https://www.twitter.com">
                   <TwitterIcon />
                 </a>
               </li>

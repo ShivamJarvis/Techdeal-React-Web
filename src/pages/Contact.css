@@ -10,65 +10,64 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100% !important;
+  padding-bottom: 9rem;
 }
-.contact_us_heading{
-    color: white;
-    margin-top: 5rem;
-    font-family: "Poppins",sans-serif;
-    font-weight: 600;
-    font-size: 3rem;
+.contact_us_heading {
+  color: white;
+  margin-top: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
 }
-.contact_us_text{
-    color: white;
-    font-family: "Poppins",sans-serif;
-    font-weight: 500;
-    font-size: 1.15rem;
-    text-transform: capitalize;
+.contact_us_text {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.15rem;
+  text-transform: capitalize;
 }
-.contact-form-area{
-    background: white;
-
+.contact-form-area {
+  background: white;
 }
-.contact-form{
-    padding: 3rem 2rem;
-}
-
-.send-message-text{
-    font-weight: 600!important;
-    font-family: "Poppins",sans-serif;
+.contact-form {
+  padding: 3rem 2rem;
 }
 
-.contact-form  label{
-    font-weight: 600!important;
-    font-family: "Poppins",sans-serif;
+.send-message-text {
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif;
 }
 
-.contact-btn{
-    background: rgb(2, 93, 71)!important;
-    font-weight: 600!important;
-    font-family: "Poppins",sans-serif!important;
-    padding: 0.50rem 2.5rem!important;
-    color: white!important;
-    font-size: 1.05rem!important;
-    border-radius: 0px!important;
+.contact-form label {
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif;
 }
 
-.contact_icon{
-    background: white;
-    border-radius: 100%;
-    font-size: 3.5rem!important;
-    padding: 1rem!important;
-    color: black!important;
+.contact-btn {
+  background: rgb(2, 93, 71) !important;
+  font-weight: 600 !important;
+  font-family: "Poppins", sans-serif !important;
+  padding: 0.5rem 2.5rem !important;
+  color: white !important;
+  font-size: 1.05rem !important;
+  border-radius: 0px !important;
 }
-.contact_detail_heading{
-    color: white;
-    font-family: "Poppins",sans-serif!important;
 
+.contact_icon {
+  background: white;
+  border-radius: 100%;
+  font-size: 3.5rem !important;
+  padding: 1rem !important;
+  color: black !important;
 }
-.contact_detail_heading_title{
-    color: rgb(2, 22, 58)!important;
-    font-weight: 600!important;
-    font-size: 1.25rem!important;
-    font-family: "Poppins",sans-serif!important;
+.contact_detail_heading {
+  color: white;
+  font-family: "Poppins", sans-serif !important;
+}
+.contact_detail_heading_title {
+  color: rgb(2, 22, 58) !important;
+  font-weight: 600 !important;
+  font-size: 1.25rem !important;
+  font-family: "Poppins", sans-serif !important;
 }

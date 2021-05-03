@@ -1,6 +1,7 @@
 import React from "react";
 import NavbarComponent from "./../Components/NavbarComponent";
 import ProductCategory from "./../Components/ProductCategory";
+import Footer from './../Components/Footer'
 function Shop() {
   return (
     <div>
@@ -11,6 +12,7 @@ function Shop() {
       <ProductCategory image="sound.jpg" headingText="Sound" />
       <ProductCategory image="networking.jpg" headingText="Networking" />
       <ProductCategory image="games.jpg" headingText="Games" />
+      <Footer />
     </div>
   );
 }

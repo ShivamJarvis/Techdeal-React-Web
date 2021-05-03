@@ -13,6 +13,7 @@ function OurPartners() {
           animateOut={true}
           items={7}
           center={true}
+          dots={false}
           autoplayTimeout={3000}
           autoplayHoverPause={true}
           nav={false}

@@ -27,6 +27,7 @@ function NewProducts() {
           }}
         >
           <Card />
+     
         </OwlCarousel>
       </div>
     )

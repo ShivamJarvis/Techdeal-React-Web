@@ -1,0 +1,43 @@
+.cart-total__checkout_btn{
+    background-color: rgb(9, 108, 201)!important;
+    border-radius: 0px!important;
+    font-family: "Poppins"!important;
+    color: white!important;
+    padding: 0.75rem 2rem!important;
+    letter-spacing: 0.10rem;
+}
+.cart-total__continue_shopping{
+    background-color: rgb(9, 108, 201)!important;
+    color: white!important;
+}
+.cart-total__heading{
+    font-family: "Poppins";
+    color: black;
+    font-size: 3rem;
+}
+.cart-total__row{
+    /* border: 1px solid black; */
+    width: fit-content;
+}
+.cart-total__head{
+    background: rgb(247, 247, 247);
+}
+.cart-total__head_content{
+    font-family: "Poppins";
+    color: rgb(0, 0, 0)!important;
+}
+.cart-total__head_prices{
+    font-family: "Poppins";
+    color: rgb(0, 0, 0)!important;
+}
+
+.ant-table-cell{
+    font-family: "Poppins"!important;
+    color: black!important;
+    font-weight: 600!important;
+}
+.ant-table-cell h6{
+    font-family: "Poppins"!important;
+    color: black!important;
+    font-weight: 500!important;
+}

@@ -3,7 +3,8 @@ import "./HeroSection.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import Typed from "react-typed";
-function HeroSection() {
+import {Link} from 'react-router-dom'
+const HeroSection = () => {
   AOS.init();
 
   return (
@@ -29,9 +30,9 @@ function HeroSection() {
         <span id="typed"></span>
       </Typed>
       <br />
-      <button  class="btn btn-primary mt-5 my-btn">
-        Shop Now
-      </button>
+     
+       <Link className="btn btn-primary mt-5 my-btn" to="/shop/products-list">Shop Now</Link>
+  
     </div>
   );
 }

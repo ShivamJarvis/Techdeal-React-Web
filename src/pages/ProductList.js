@@ -107,43 +107,29 @@ const ProductList = () => {
 
         <div className="col-lg-10 col-md-10 col-sm-12">
           <div className="row">
-            <div className="col-lg-3 col-md-3 col-sm-12">
+            <div className="col-lg-3 col-md-4 col-sm-12">
+              <Card />
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-12">
+              <Card />
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-12">
+              <Card />
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-12">
+              <Card />
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-12">
+              <Card />
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-12">
+              <Card />
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-12">
               <Card />
             </div>
           
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
-            <div className="col-lg-3 col-md-3 col-sm-12">
-              <Card />
-            </div>
+          
           </div>
         </div>
       </div>

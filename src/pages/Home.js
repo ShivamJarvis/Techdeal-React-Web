@@ -16,15 +16,16 @@ import PopularProducts from "../Components/PopularProducts";
 import OurPartners from "../Components/OurPartners";
 import OurCustomer from "../Components/OurCustomer";
 import RecentProducts from "../Components/RecentProducts";
-function Home() {
+
+const Home = () => {
   AOS.init();
   return (
     <div>
       <Navbar pageName="home" />
       <HeroSection />
-     <NewProducts/>
-     <PopularProducts/>
-     <OurPartners/>
+      <NewProducts />
+      <PopularProducts />
+      <OurPartners />
       <div className="container-fluid">
         <div className="row text-center we-have-section">
           <div className="col-lg-4 col-md-4 col-sm-12">
@@ -53,13 +54,11 @@ function Home() {
           </div>
         </div>
       </div>
-     <OurCustomer/>
-      <RecentProducts/>
+      <OurCustomer />
+      <RecentProducts />
       <Footer />
-
-
     </div>
   );
-}
+};
 
 export default Home;

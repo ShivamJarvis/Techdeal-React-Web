@@ -1,0 +1,48 @@
+polyline {
+  visibility: hidden !important;
+}
+.product-detail__name, .product-detail__review{
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 2rem !important;
+}
+.product-detail__price {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 1.7rem !important;
+}
+
+.product-detail__seller {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.product-detail__add_cart_btn {
+  border-radius: 0px !important;
+  background-color: rgb(3, 104, 134) !important;
+}
+.MuiListItemText-primary {
+  color: black !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+}
+.MuiListItemText-secondary {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500 !important;
+}
+
+.MuiAvatar-circle{
+    background-color: #2e92b1!important;
+}
+
+.MuiAppBar-colorDefault{
+    background-color: white!important;
+    box-shadow: none!important;
+}
+.MuiTab-textColorPrimary.Mui-selected {
+    color: #2e92b1!important;
+}
+.PrivateTabIndicator-colorPrimary-2{
+    background-color: #2e88b1!important;
+
+}

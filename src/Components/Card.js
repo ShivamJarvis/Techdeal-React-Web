@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import Rating from "@material-ui/lab/Rating";
 import './Card.css'
+import {Link} from 'react-router-dom'
 const Card = () => {
 
   return (
@@ -17,15 +18,15 @@ const Card = () => {
             readOnly
           />
           <p class="card-text product-card-price">&#8377; 41990</p>
-          <a class="btn product-btn product-details details px-auto" href="https://www.codingbrewing.in">
+         
             <Button
               variant="outlined"
               color="primary"
               className="product-card-btn"
             >
-              More Details
+             <Link to='/product-details' className="more-detail__hover"> More Details</Link>
             </Button>
-          </a>
+     
           <br />
         </div>
       </div>
